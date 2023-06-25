@@ -20,7 +20,6 @@ function cursor(){
             
              k.addEventListener('mouseenter',(e)=>{
                 cur.style.width='20px'
-                cur.style.transition='1s'
              })
              k.addEventListener('mouseout',(e)=>{
                 cur.style.width='10px'
