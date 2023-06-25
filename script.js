@@ -7,8 +7,8 @@ function cursor(){
     addEventListener('mouseenter',()=>cur.style.display= 'block')
     
     addEventListener('mousemove',(e)=>{
-        let x = e.pageX
-        let y = e.pageY
+        let x = e.pageX-1
+        let y = e.pageY-1
         
 
          cur.style.display='block'
