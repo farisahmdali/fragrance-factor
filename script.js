@@ -9,14 +9,25 @@ function cursor(){
     addEventListener('mousemove',(e)=>{
         let x = e.pageX
         let y = e.pageY
+        
+
          cur.style.display='block'
-        //  console.log(x,y);
          cur.style.left = x+'px'
          cur.style.top = y + 'px'
+
+         let a = document.getElementsByClassName('h')
+         for (const k of a) {
+            
+             k.addEventListener('mouseenter',(e)=>{
+                cur.style.width='20px'
+                cur.style.transition='1s'
+             })
+             k.addEventListener('mouseout',(e)=>{
+                cur.style.width='10px'
+             })
+         }
         
-        let a = window.getComputedStyle(e.target)["cursor"]
-        if(a==='pointer'){
-            cur.style.display='none'
-        }
+        
     })
 }
+    
