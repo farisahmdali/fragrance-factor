@@ -15,18 +15,18 @@ function cursor(){
          cur.style.left = x+'px'
          cur.style.top = y + 'px'
 
-         let a = document.getElementsByClassName('h')
-         for (const k of a) {
-            
-             k.addEventListener('mouseenter',(e)=>{
-                cur.style.width='20px'
-             })
-             k.addEventListener('mouseout',(e)=>{
-                cur.style.width='10px'
-             })
-         }
-        
-        
-    })
+         
+         
+        })
+        let a = document.getElementsByClassName('h')
+        for (const k of a) {
+           
+            k.addEventListener('mouseenter',(e)=>{
+               cur.style.width='20px'
+            })
+            k.addEventListener('mouseout',(e)=>{
+               cur.style.width='10px'
+            })
+        }
 }
     
