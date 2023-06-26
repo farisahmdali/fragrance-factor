@@ -1,9 +1,38 @@
  .cursor:target{
     width: 20px !important;
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #0000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #F4EBD0;
+    border-radius: 5px;
+    border: 2px solid #0000;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ecd083;
+  }
+  
 @font-face {
     font-family: 'cursive';
     src: url(./asset/cursive/GreatVibes-Regular.ttf);
+}
+@font-face {
+    font-family: 'love';
+    src: url(./asset/lovelyn/Lovelyn/Lovelyn.ttf);
+}
+@font-face {
+    font-family: 'geo';
+    src: url(./asset/geogia/georgia.woff);
 }
 
 @font-face {
@@ -54,10 +83,11 @@ body {
 html {
     background: #000;
     cursor: none;
+    overflow-x: hidden;
 }
 
 nav {
-    background: #000;
+    background: #000000a5;
     /* width: 1; */
     height: 50px;
     display: flex;
@@ -65,6 +95,9 @@ nav {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
+    position: fixed;
+    z-index: 9999;
+    width: 100vw;
 }
 
 nav img {
@@ -75,7 +108,7 @@ nav img {
 
 nav div a {
     color: azure;
-    font-family: 'cursive';
+    font-family: 'geo';
     text-decoration: none;
 }
 
@@ -105,16 +138,18 @@ nav div a:active {
 }
 
 .carouselPart .content {
-    background-image: linear-gradient(to right, rgba(20, 19, 19, 0.823) 80%, rgba(2, 2, 2, 0));
+    background-image: linear-gradient(to right, rgba(20, 19, 19, 0.474) 80%, rgba(2, 2, 2, 0));
     width: 50%;
     color: #F4EBD0;
+    padding-top: 100px;
     height: 100%;
     animation: animateCarousel 1s;
     padding-left: 10px;
 }
 
 .carouselPart {
-    font-family: 'cursive2';
+    font-family: 'geo';
+    height: 90vh;
 }
 
 .nav-icon {
@@ -141,7 +176,7 @@ nav div a:active {
 }
 
 .carouselPart .content2 {
-    background-image: linear-gradient(to top, rgba(20, 19, 19, 0.823) 80%, rgba(2, 2, 2, 0));
+    background-image: linear-gradient(to top, rgba(20, 19, 19, 0.474) 80%, rgba(2, 2, 2, 0));
     position: absolute;
     height: 50%;
     bottom: 0;
@@ -196,7 +231,7 @@ header {
 
 #about,
 #contact {
-    font-family: 'About';
+    font-family: 'love';
     color: #F4EBD0;
     margin-top: 50px;
 }
@@ -207,13 +242,13 @@ header {
 }
 
 #about p {
-    font-family: 'cursive2';
+    font-family: 'love';
 }
 
 .info a {
     color: azure;
     text-decoration: none;
-    font-family: 'cursive2';
+    font-family: 'love';
     margin-top: 20px;
     /* font-size: 2vW; */
 }
