@@ -1,235 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frangrance Factor</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="manifest" href="./site.webmanifest">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body onload="cursor()" style="background-color: black;">
+  <body onload="cursor()" style="background-color: black">
     <div class="loader">
-        <img src="./asset/logo.png" style="aspect-ratio: 2/1;" alt="" srcset="">
+      <img src="./asset/logo.png" style="aspect-ratio: 2/1" alt="" srcset="" />
     </div>
-    <nav >
-        <img src="./asset/logo.png" alt="">
-        <div class="navigate">
-            <a href="#home" class="h">Home</a>
-            <a href="#about" class="h">About</a>
-            <a href="#contact" class="h">Contact</a>
-            <a href="#product" class="h">Product</a>
+    <nav>
+      <img src="./asset/logo.png" alt="" />
+      <div class="navigate">
+        <a href="#home" class="h">Home</a>
+        <a href="#about" class="h">About</a>
+        <a href="#contact" class="h">Contact</a>
+        <a href="#product" class="h">Product</a>
+      </div>
+      <div class="nav-icon">
+        <i class="fa fa-bars h" aria-hidden="true"></i>
+        <div class="navIconSlider">
+          <a href="#home" class="h">Home</a>
+          <a href="#about" class="h">About</a>
+          <a href="#contact" class="h">Contact</a>
+          <a href="#product" class="h">Product</a>
         </div>
-        <div class="nav-icon">
-            <i class="fa fa-bars h" aria-hidden="true"></i>
-            <div class="navIconSlider">
-                <a href="#home" class="h">Home</a>
-                <a href="#about" class="h">About</a>
-                <a href="#contact" class="h">Contact</a>
-                <a href="#product" class="h">Product</a>
-            </div>
-        </div>
+      </div>
     </nav>
     <div id="home"></div>
 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active carouselPart" style="background-image: url(./asset/img.jpg);">
-                <div class="content">
-                    <div style="width: 70%;">
-                        <h1>Love is coming back</h1>
-                        <p>Love and perfume intertwine, evoking memories through fragrant connections</p>
-                    </div>
-                </div>
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div
+          class="carousel-item active carouselPart"
+          style="background-image: url(./asset/img.jpg)"
+        >
+          <div class="content">
+            <div style="width: 70%">
+              <h1>Love is coming back</h1>
+              <p>
+                Love and perfume intertwine, evoking memories through fragrant
+                connections
+              </p>
             </div>
-            <div class="carousel-item carouselPart" style="background-image: url(./asset/IMG20230417221216.jpg);">
-                <div class="content2">
-                    <div>
-                        <h1>Fragrance is the art that speaks when words are silent.</h1>
-                        <p>Captivate with scents that leave an indelible impression. Embrace your allure</p>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item carouselPart" style="background-image: url(./asset/IMG_20230427_213002.jpg);">
-                <div class="content3">
-                    <div>
-                        <h1>Crafted for you, a scent bespoke.</h1>
-                        <p>Your scent, your story, handcrafted to perfection. Embrace personalized luxury</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <a class="carousel-control-prev h" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon h" aria-hidden="true"></span>
-        </a>
-        <a class="carousel-control-next h" href="#carouselExampleControls" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </a>
+        <div
+          class="carousel-item carouselPart"
+          style="background-image: url(./asset/IMG20230417221216.jpg)"
+        >
+          <div class="content2">
+            <div>
+              <h1>Fragrance is the art that speaks when words are silent.</h1>
+              <p>
+                Captivate with scents that leave an indelible impression.
+                Embrace your allure
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="carousel-item carouselPart"
+          style="background-image: url(./asset/IMG_20230427_213002.jpg)"
+        >
+          <div class="content3">
+            <div>
+              <h1>Crafted for you, a scent bespoke.</h1>
+              <p>
+                Your scent, your story, handcrafted to perfection. Embrace
+                personalized luxury
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev h"
+        href="#carouselExampleControls"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon h" aria-hidden="true"></span>
+      </a>
+      <a
+        class="carousel-control-next h"
+        href="#carouselExampleControls"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
     </div>
-
-
-
-
 
     <header class="container">
-        <div class="row justify-content-between flex-column flex-md-row  align-items-center " id="product">
-            <div class="cards col-8 col-md-3 ">
-                <img src="./asset/CODE.jpg" alt="">
-                <hr style="color: #ebbc2d; width: 95%; height: 1.5px;">
+      <div
+        class="row justify-content-between flex-column flex-md-row align-items-center"
+        id="product"
+      >
+        <div class="cards col-8 col-md-3">
+          <img src="./asset/CODE.jpg" alt="" />
+          <hr style="color: #ebbc2d; width: 95%; height: 1.5px" />
 
-                <div>
-                    <h4>CODE #7</h4>
-                    <h5>₹1600-1800</h5>
-                    <p></p>
-                </div>
-            </div>
-            <div class="cards col-8 col-md-3 m-5">
-                <img src="./asset/fangirl.jpg" alt="">
-                <hr style="color: #ebbc2d; width: 95%; height: 1.5px;">
-                <div>
-                    <h4>Fan Girl</h4>
-                    <h5>₹1500-1700</h5>
-                    <!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page
+          <div>
+            <h4>CODE #7</h4>
+            <h5>₹1600-1800</h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="cards col-8 col-md-3 m-5">
+          <img src="./asset/fangirl.jpg" alt="" />
+          <hr style="color: #ebbc2d; width: 95%; height: 1.5px" />
+          <div>
+            <h4>Fan Girl</h4>
+            <h5>₹1500-1700</h5>
+            <!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page
                         when
                         looking at its layout. The point of using</p> -->
-                </div>
-            </div>
-            <div class="cards col-8 col-md-3 ">
-                <img src="./asset/christ.jpg" alt="">
-                <hr style="color: #ebbc2d; width: 95%; height: 1.5px;">
+          </div>
+        </div>
+        <div class="cards col-8 col-md-3">
+          <img src="./asset/christ.jpg" alt="" />
+          <hr style="color: #ebbc2d; width: 95%; height: 1.5px" />
 
-                <div>
-                    <h4>CHRISTIAN DIOR J'ADORE</h4>
-                    <h5>₹2300-2800</h5>
-                    <!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page
+          <div>
+            <h4>CHRISTIAN DIOR J'ADORE</h4>
+            <h5>₹2300-2800</h5>
+            <!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page
                         when
                         looking at its layout. The point of using</p> -->
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
 
+      <div class="row justify-content-between">
+        <img src="./asset/bottls.jpg" class="col-6 col-md-2 mt-3" alt="" />
+        <img src="./asset/btl.jpg" class="col-6 col-md-2 mt-3" alt="" />
+        <img src="./asset/btl2 (1).jpg" class="col-6 col-md-2 mt-3" alt="" />
+        <img src="./asset/btl5 (1).jpg" class="col-6 col-md-2 mt-3" alt="" />
+        <img src="./asset/btl7.jpg" class="col-6 col-md-2 mt-3" alt="" />
 
-
-        <div class="row justify-content-between">
-            <img src="./asset/bottls.jpg" class="col-6 col-md-2 mt-3" alt="">
-            <img src="./asset/btl.jpg" class="col-6 col-md-2 mt-3" alt="">
-            <img src="./asset/btl2 (1).jpg" class="col-6 col-md-2 mt-3" alt="">
-            <img src="./asset/btl5 (1).jpg" class="col-6 col-md-2 mt-3" alt="">
-            <img src="./asset/btl7.jpg" class="col-6 col-md-2 mt-3" alt="">
-
-            <img src="./asset/img.jpg" class="col-6 col-md-2 mt-3" alt="">
+        <img src="./asset/img.jpg" class="col-6 col-md-2 mt-3" alt="" />
+      </div>
+      <div id="about">
+        <h1>About</h1>
+        <div class="para row">
+          <img
+            src="./asset/IMG_20230427_213002.jpg"
+            alt=""
+            class="col-12 col-lg-6"
+          />
+          <div class="col-lg-5">
+            <h4>Perfumes</h4>
+            <p>
+              Welcome to our world of exquisite fragrances. At Fragrance Factor,
+              we specialize in creating captivating perfumes that transport you
+              to a realm of sensory bliss. Our perfumes are meticulously crafted
+              with the finest ingredients, capturing the essence of elegance and
+              luxury. Indulge your senses in a symphony of enchanting aromas,
+              carefully curated to evoke emotions and create lasting
+              impressions. Each fragrance is a masterpiece, meticulously
+              developed by our skilled perfumers who blend unique notes to
+              create captivating olfactory experiences. From vibrant floral
+              bouquets to seductive oriental blends, our perfume collection
+              offers a diverse range of scents to suit every preference and
+              occasion. Whether you seek a fragrance that exudes confidence and
+              sophistication or one that embraces delicate sensuality, we have
+              the perfect scent to accompany your journey.
+            </p>
+            <img src="./asset/shop image.jpg" alt="" width="80%" />
+          </div>
+          <h4 contenteditable="true">Why we are unique?</h4>
+          <p>
+            Welcome to Fragrance Factor, where fragrance becomes a personal
+            expression of individuality. We believe that scent is a powerful
+            form of self-expression, and our customized perfumes offer a unique
+            opportunity to create a fragrance as distinctive as you are. With
+            our customized perfume service, you can embark on a captivating
+            olfactory journey tailored to your preferences and desires. Our
+            expert perfumers will guide you through the process, ensuring that
+            every step is a delightful experience. Imagine having a scent that
+            resonates with your personality, evokes cherished memories, and
+            captivates those around you. Our perfumers will carefully curate a
+            blend of high-quality ingredients, working closely with you to
+            understand your preferences, style, and desired mood. They will
+            capture the essence of your story, infusing it into a truly
+            one-of-a-kind fragrance.
+          </p>
         </div>
-        <div id="about">
-            <h1>About</h1>
-            <div class="para row">
-                <img src="./asset/IMG_20230427_213002.jpg" alt=""  class="col-12 col-lg-6">
-                <div class="col-lg-5">
-                    <h4>Perfumes</h4>
-                    <p>Welcome to our world of exquisite fragrances. At Fragrance Factor, we specialize in creating
-                        captivating perfumes that transport you to a realm of sensory bliss. Our perfumes are
-                        meticulously
-                        crafted with the finest ingredients, capturing the essence of elegance and luxury.
-
-                        Indulge your senses in a symphony of enchanting aromas, carefully curated to evoke emotions and
-                        create lasting impressions. Each fragrance is a masterpiece, meticulously developed by our
-                        skilled
-                        perfumers who blend unique notes to create captivating olfactory experiences.
-                        From vibrant floral bouquets to seductive oriental blends, our perfume collection offers a
-                        diverse range of scents to suit every preference and occasion. Whether you seek a fragrance that
-                        exudes confidence and sophistication or one that embraces delicate sensuality, we have the
-                        perfect scent to accompany your journey.</p>
-                    <img src="./asset/shop image.jpg" alt="" width="80%">
-                </div>
-                <h4 contenteditable="true">Why we are unique?</h4>
-                <p>Welcome to Fragrance Factor, where fragrance becomes a personal expression of individuality. We
-                    believe that scent is a powerful form of self-expression, and our customized perfumes offer a unique
-                    opportunity to create a fragrance as distinctive as you are.
-
-                    With our customized perfume service, you can embark on a captivating olfactory journey tailored to
-                    your preferences and desires. Our expert perfumers will guide you through the process, ensuring that
-                    every step is a delightful experience.
-
-                    Imagine having a scent that resonates with your personality, evokes cherished memories, and
-                    captivates those around you. Our perfumers will carefully curate a blend of high-quality
-                    ingredients, working closely with you to understand your preferences, style, and desired mood. They
-                    will capture the essence of your story, infusing it into a truly one-of-a-kind fragrance.</p>
-            </div>
-
-        </div>
+      </div>
     </header>
 
-
-
-
-
     <main id="contact" class="container">
-        <div class="row">
-            <h1>Contact</h1>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3924.547670953652!2d76.1204786147973!3d10.378005192592651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDIyJzQwLjgiTiA3NsKwMDcnMjEuNiJF!5e0!3m2!1sen!2sin!4v1687693592900!5m2!1sen!2sin"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" class="col-md-6"></iframe>
-            <div class="info col-md-6">
-                <a href="https://www.instagram.com/fragrance_factor_perfumes.ae/" class="h"><i
-                        class="fa-brands fa-instagram "></i>
-                    fragrance_factor_pefumes.ae</a><br>
-                <a href="https://youtu.be/aAYz-5a-PVY" class="h"><i class="fa-brands fa-youtube"></i>
-                    Fragrancefactor FF</a><br>
-                <a href="https://wa.me/+918891772677" class="h"><i class="fa-brands fa-whatsapp"></i>
-                    +918891772677</a><br>
-                <a href="https://fragrancefactorp@gmail.com" class="h"><i class="fa-solid fa-envelope"></i>
-                    fragrancefactorp@gmail.com</a><br>
-                    <div class="branches">
-                        <h5>Our branches</h5>
-                        <span><i class="fa-solid fa-location-dot"></i> Edamuttam Thrissur Thriprayar, Valapad, Kerala
-                            680567</span><br>
-                            <a href="" class="h ms-4"><i class="fa-solid fa-phone"></i> +919539843984</a><br><br>
-                    <span><i class="fa-solid fa-location-dot"></i> Lavanya Nagar Rd, Kusumagiri, Kakkanad, Kerala
-                        682030</span><br>
-                        <a href="" class="h ms-4"><i class="fa-solid fa-phone"></i> +919207772677</a><br>
-
-                </div>
-            </div>
+      <div class="row">
+        <h1>Contact</h1>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3924.547670953652!2d76.1204786147973!3d10.378005192592651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDIyJzQwLjgiTiA3NsKwMDcnMjEuNiJF!5e0!3m2!1sen!2sin!4v1687693592900!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="col-md-6"
+        ></iframe>
+        <div class="info col-md-6">
+          <a
+            href="https://www.instagram.com/fragrance_factor_perfumes.ae/"
+            class="h"
+            ><i class="fa-brands fa-instagram"></i>
+            fragrance_factor_pefumes.ae</a
+          ><br />
+          <a href="https://youtu.be/aAYz-5a-PVY" class="h"
+            ><i class="fa-brands fa-youtube"></i> Fragrancefactor FF</a
+          ><br />
+          <a href="https://wa.me/+918891772677" class="h"
+            ><i class="fa-brands fa-whatsapp"></i> +918891772677</a
+          ><br />
+          <a href="https://fragrancefactorp@gmail.com" class="h"
+            ><i class="fa-solid fa-envelope"></i> fragrancefactorp@gmail.com</a
+          ><br />
+          <div class="branches">
+            <h5>Our branches</h5>
+            <span
+              ><i class="fa-solid fa-location-dot"></i> Edamuttam Thrissur
+              Thriprayar, Valapad, Kerala 680567</span
+            ><br />
+            <a href="" class="h ms-4"
+              ><i class="fa-solid fa-phone"></i> +919539843984</a
+            ><br /><br />
+            <span
+              ><i class="fa-solid fa-location-dot"></i> Lavanya Nagar Rd,
+              Kusumagiri, Kakkanad, Kerala 682030</span
+            ><br />
+            <a href="" class="h ms-4"
+              ><i class="fa-solid fa-phone"></i> +919207772677</a
+            ><br />
+          </div>
         </div>
+      </div>
     </main>
 
-
-    <div style="height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: bisque;">
-        <hr style="width: 90%; color: antiquewhite; margin-top: 24px;">
-        <div style="width: 90%;">
-
-            <a href="https://api.whatsapp.com/send/?phone=%2B919526444434&text&type=phone_number&app_absent=0" class="h " style="color: antiquewhite; text-decoration: none;">copyright &#169; <span style="text-decoration: underline;">Faris</span> </a>
-        </div>
-</div>
-
-
-
-
-
-
-    <div class="cursor">
+    <div
+      style="
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: bisque;
+      "
+    >
+      <hr style="width: 90%; color: antiquewhite; margin-top: 24px" />
+      <div style="width: 90%">
+        <a
+          href="https://api.whatsapp.com/send/?phone=%2B919526444434&text&type=phone_number&app_absent=0"
+          class="h"
+          style="color: antiquewhite; text-decoration: none"
+          >copyright &#169;
+          <span style="text-decoration: underline">Faris</span>
+        </a>
+      </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+
+    <div class="cursor"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="./script.js"></script>
     <script>
-        $(window).on('load', function () {
-            $('.loader').fadeOut('slow')
-        })
+      $(window).on("load", function () {
+        $(".loader").fadeOut("slow");
+      });
     </script>
-</body>
-
+  </body>
 </html>
